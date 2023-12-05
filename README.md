@@ -1,6 +1,26 @@
 # QuantConn
 
 This code was used to process Diffusion-Weighted Images (DWI) for the QuantConn Challenge.
+QuantConn contributors: 
+
+**Nancy R. Newlin**, Vanderbilt University, Nashville, TN
+
+**Neda Jahanshad**, Keck School of Medicine of USC, Los Angeles, CA
+
+**Kurt Schilling**, Vanderbilt University, Nashville, TN
+
+**Daniel Moyer**, Vanderbilt University, Nashville, TN
+
+**Eleftherios Garyfallidis**, Indiana University Bloomington, Bloomington, IN
+
+**Bennett A. Landman**, Vanderbilt University, Nashville, TN
+
+**Serge Koudoro**,	Indiana University Bloomington, Bloomington, IN
+
+**Bramsh Chandio**, Keck School of Medicine of USC, Los Angeles, CA
+
+
+http://cmic.cs.ucl.ac.uk/cdmri/challenge.html
 
 ## Installation
 Pull the github repo. 
