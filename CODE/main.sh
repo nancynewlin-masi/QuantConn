@@ -1,24 +1,24 @@
 # Directories
-export DIFFDIR=/DIFFUSION/
-export FREESURFERDIR=/FREESURFER/
-export OUTPUTDIR=/OUTPUTS/
+export DIFFDIR=/QuantConn/DIFFUSION/
+export FREESURFERDIR=/QuantConn/FREESURFER/
+export OUTPUTDIR=/QuantConn/OUTPUTS/
 
 echo "NOTE: Beginning connectomics analysis with diffusion data at: ${DIFFDIR}, freesurfer output at: ${FREESURFERDIR}."
 echo "NOTE: Output will be stored at ${OUTPUTDIR}"
 
 # Hyper parameters
 export NUMSTREAMS=100   #5000000
-export WORKINGDIR=/
-export FREESURFER_HOME=/APPS/freesurfer/freesurfer/
+export WORKINGDIR=/QuantConn/
+export FREESURFER_HOME=/QuantConn/APPS/freesurfer/freesurfer/
 source $FREESURFER_HOME/SetUpFreeSurfer.sh
 
 # Set up temporary directory that will be deleted at the end of processing
-export TEMPDIR=/TEMP/
-export SINGULARITY_SCILPY=/APPS/scilus_1.5.0.sif
+export TEMPDIR=/QuantConn/TEMP/
+
 
 # Define look up tables for atlas. This one is for desikan killany only (freesurfer default)
-export LUT=/SUPPLEMENTAL/FreeSurferColorLUT.txt
-export FS=/SUPPLEMENTAL/fs_default.txt
+export LUT=/QuantConn/SUPPLEMENTAL/FreeSurferColorLUT.txt
+export FS=/QuantConn/SUPPLEMENTAL/fs_default.txt
 
 #echo "Moving dwi to accre..."
 #scp newlinnr@hickory.accre.vanderbilt.edu:${DIFFDIR}/* newlinnr@hickory.accre.vanderbilt.edu:${TEMPDIR}
