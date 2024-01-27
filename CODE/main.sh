@@ -7,7 +7,7 @@ echo "NOTE: Beginning connectomics analysis with diffusion data at: ${DIFFDIR}, 
 echo "NOTE: Output will be stored at ${OUTPUTDIR}"
 
 # Hyper parameters
-export NUMSTREAMS=100   #5000000
+export NUMSTREAMS=10000000
 export WORKINGDIR=/QuantConn/
 export FREESURFER_HOME=/QuantConn/APPS/freesurfer/freesurfer/
 source $FREESURFER_HOME/SetUpFreeSurfer.sh
